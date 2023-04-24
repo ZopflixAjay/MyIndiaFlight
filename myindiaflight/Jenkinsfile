@@ -6,7 +6,7 @@ pipeline {
       stage('build') {
          steps {
             dir("myindiaflight") {
-                sh "docker build -t mif-prod ."
+                sh "docker build -t mif-staging ."
             }
          }
       }
